@@ -3,17 +3,14 @@
         <li class="page_item page-item-2">
             <a href="http://www.anthonydebarros.com/about/">About</a>
         </li>
+        <li class="page_item">
+            <a href="http://www.anthonydebarros.com/index/">Articles</a>
+        </li>
         <li class="page_item page-item-2265">
             <a href="http://www.anthonydebarros.com/awards/">Awards</a>
         </li>
         <li class="page_item">
-            <a href="http://www.anthonydebarros.com/index/">Index</a>
-        </li>
-        <li class="page_item">
-            <a href="http://www.github.com/anthonydb/">GitHub</a>
-        </li>
-        <li class="page_item">
-            <a href="http://www.anthonydb.com">Sandbox</a>
+            <a href="http://www.github.com/anthonydb/" target="_blank">Code</a>
         </li>
         <li class="page_item page-item-9">
             <a href="http://www.anthonydebarros.com/clips/">Clips</a>
