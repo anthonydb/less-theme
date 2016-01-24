@@ -57,6 +57,14 @@ Template Name: Custom Front
 
         <article class="post">
         <h1 class="title">Selected articles:</h1>
+            <div class="front-post-label">Product:</div>
+                <?php query_posts('post_type=post&post_status=publish&cat=21&posts_per_page=20&paged='. get_query_var('paged')); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post();?>
+                <div class="front-post" id="post-<?php the_ID(); ?>">
+                    <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title();?></a>
+                    <span style="text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
+                </div>
+                <?php endwhile; endif; wp_reset_query(); ?>
             <div class="front-post-label">Python:</div>
                     <?php query_posts('post_type=post&post_status=publish&cat=18&posts_per_page=20&paged='. get_query_var('paged')); ?>
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
