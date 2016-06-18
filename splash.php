@@ -39,7 +39,7 @@ Template Name: Splash
         <div id="content" role="main">
         <article class="post">
         <h1 class="splash-text">Hi, I'm <a href="http://www.anthonydebarros.com/about/">Anthony DeBarros</a>. I help teams make excellent <a href="http://www.anthonydebarros.com/awards/">digital products</a>. I also <a href="https://source.opennews.org/en-US/learning/understanding-households-and-relationships-census-/">analyze
-        data</a> and <a href="https://www.github.com/anthonydb">write code</a>. Right now, I'm focused on journalism at <a href="http://www.questex.com/">Questex</a>. Please <a href="http://www.anthonydebarros.com/contact/">get in touch</a>.</h1>
+        data</a> and <a href="https://www.github.com/anthonydb">write code</a>. Right now, I'm focused on journalism at <a href="http://www.questex.com/">Questex Media</a>. Please <a href="http://www.anthonydebarros.com/contact/">get in touch</a>.</h1>
 
         <h1 class="splash-hed">Recent writing:</h1>
         <?php query_posts('post_type=post&post_status=publish&posts_per_page=2&paged='. get_query_var('paged')); ?>
