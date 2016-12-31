@@ -66,7 +66,7 @@ Template Name: Splash
 <footer class="site-footer" role="contentinfo">
     <div class="site-info container">
         <?php do_action( 'break_credits' ); ?>
-        <p>Copyright 2009-2016 Anthony DeBarros</p>
+        <p>Copyright 2009-2017 Anthony DeBarros</p>
     </div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->
 
