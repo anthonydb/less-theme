@@ -525,6 +525,7 @@ header #brand h1 span {
 }
 header nav {
   float: left;
+  margin: 4px 0 0 0;
 }
 header nav ul {
   list-style: none;
@@ -536,7 +537,7 @@ header nav ul li {
 }
 header nav ul li a {
   color: #888888;
-  font-size: 14px;
+  font-size: 16px;
 }
 .container {
   max-width: 720px;

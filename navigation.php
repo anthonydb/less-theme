@@ -4,7 +4,7 @@
             <a href="http://www.anthonydebarros.com/about/">About</a>
         </li>
         <li class="page_item">
-            <a href="http://www.anthonydebarros.com/index/">Articles</a>
+            <a href="http://www.anthonydebarros.com/index/">Writing</a>
         </li>
         <li class="page_item page-item-2265">
             <a href="http://www.anthonydebarros.com/awards/">Awards</a>
