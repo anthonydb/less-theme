@@ -19,7 +19,7 @@ add_theme_support( 'automatic-feed-links' );
 );
 */
 /*-----------------------------------------------------------------------------------*/
-/* Enque Styles and Scripts
+/* Enqueue Styles and Scripts
 /*-----------------------------------------------------------------------------------*/
 
 function less_scripts()  {
@@ -35,6 +35,25 @@ function less_scripts()  {
 
 }
 add_action( 'wp_enqueue_scripts', 'less_scripts' );
+
+function google_fonts() {
+
+ $query_args = array(
+   'family' => 'Arvo:400,700|PT+Sans:400,700|Raleway:400,200'
+ );
+
+ wp_register_style(
+   'google-fonts',
+   add_query_arg( $query_args, 'https://fonts.googleapis.com/css' ),
+   array(),
+   null
+ );
+ wp_enqueue_style( 'google-fonts' );
+
+}
+add_action( 'wp_enqueue_scripts', 'google_fonts' );
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /* Get rid of Jetpack open graph tags (conflicts with other plugins)
