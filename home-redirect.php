@@ -3,6 +3,6 @@
 Template Name: HomeRedirect
 */
 ?>
-<?php header('Location: http://www.anthonydebarros.com');
+<?php header('Location: https://www.anthonydebarros.com');
       die();
 ?>

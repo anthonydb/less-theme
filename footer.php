@@ -7,9 +7,9 @@
 <footer class="site-footer" role="contentinfo">
     <div class="site-info container">
         <?php do_action( 'break_credits' ); ?>
-        <p>Copyright 2009-2017 Anthony DeBarros<br />
+        <p>Copyright 2009-2018 Anthony DeBarros<br />
         I'm <a href="https://github.com/anthonydb/Less">hacking</a> on the <a href="http://lessmade.com/themes/less" rel="theme">LESS</a> theme by <a href="http://jarederickson.com" rel="designer">Jared Erickson</a>.
-        Hosting is by <a href="http://www.webfaction.com/signup?affiliate=adebarros" >WebFaction</a>. </p>
+        Hosting is by <a href="https://www.webfaction.com/signup?affiliate=adebarros" >WebFaction</a>. </p>
     </div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->
 
