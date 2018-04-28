@@ -632,6 +632,7 @@ article .meta .post-categories li {
 #pagination .next-page {
   float: left;
 }
+
 /* Comments */
 h3#comments {
   margin-bottom: 80px;
@@ -689,6 +690,7 @@ footer {
   padding-bottom: 40px;
   font-size: 12px;
 }
+
 /* Misc & mixens
 -------------------------------------------------------------- */
 /* Jetpack Gallery */
