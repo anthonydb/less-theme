@@ -4,7 +4,7 @@
             <a href="/contact/">Contact</a>
         </li>
         <li class="page_item">
-            <a href="/index/">Posts</a>
+            <a href="/blog/">Posts</a>
         </li>
         <li class="page_item">
             <a href="http://www.github.com/anthonydb/" target="_blank">GitHub</a>
