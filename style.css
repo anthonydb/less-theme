@@ -481,9 +481,9 @@ a:active {
 /* Header
 -------------------------------------------------------------- */
 header {
-  padding: 20px 0;
+  padding: 10px 0;
   background: transparent;
-  margin: 20px auto 6px;
+  margin: 10px auto 6px;
 }
 header .gravatar {
   overflow: hidden;
