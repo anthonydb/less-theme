@@ -151,7 +151,7 @@ blockquote p {
 }
 blockquote:before {
   display: block;
-  content: "\201C";
+  content: '\201C';
   font-size: 80px;
   position: absolute;
   left: 0px;
@@ -165,7 +165,7 @@ blockquote:before {
     margin-top: 5px;
 }
 blockquote cite:before {
-    content: "\2014 \2009";
+    content: '\2014 \2009';
 }*/
 table {
   border-spacing: 0;
@@ -175,7 +175,7 @@ code,
 kbd,
 tt,
 var {
-  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font: 15px Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
 }
 abbr,
 acronym {
@@ -353,7 +353,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -368,7 +368,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "Raleway", Georgia, serif;
+  font-family: 'Fira Sans', Georgia, serif;
 }
 h1 {
   line-height: 71.03999999999999px;
@@ -438,7 +438,7 @@ address {
 }
 pre {
   background: #eee;
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: 'Courier 10 Pitch', Courier, monospace;
   font-size: 15px;
   font-size: 1.5rem;
   line-height: 1.6;
@@ -501,7 +501,7 @@ header #brand {
   margin-top: 22px;
 }
 header #brand h1 {
-  font-family: "PT Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #565656;
   line-height: 27px;
@@ -530,7 +530,7 @@ header nav ul {
 }
 header nav ul li {
   float: left;
-  margin: 2px 10px 0 0;
+  margin: 2px 14px 0 0;
 }
 header nav ul li a {
   color: #888888;
@@ -710,7 +710,7 @@ footer {
 }
 /* clear floats */
 .clearfix:after {
-  content: ".";
+  content: '.';
   display: block;
   clear: both;
   visibility: hidden;
