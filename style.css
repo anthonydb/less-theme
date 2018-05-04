@@ -481,10 +481,12 @@ a:active {
 /* Header
 -------------------------------------------------------------- */
 header {
-  padding: 10px 0;
+  padding: 4px 0;
   background: transparent;
-  margin: 10px auto 6px;
+  margin: 5px auto 6px;
 }
+@media screen and (max-width:480px) {header .gravatar {display:none;}}
+
 header .gravatar {
   overflow: hidden;
   width: 100px;
