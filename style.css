@@ -356,7 +356,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PT Serif', serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -452,7 +452,7 @@ pre {
 }
 /* Links */
 a {
-  color: #007998;
+  color: #000000;
   -webkit-transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -o-transition: color 0.25s ease-in-out;
@@ -463,7 +463,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: rgba(0, 121, 152, 0.5);
+  color: #565656;
 }
 /* Alignment */
 .alignleft {
@@ -488,9 +488,9 @@ header {
   background: transparent;
   margin: 5px auto 6px;
 }
-@media screen and (max-width:480px) {header .gravatar {display:none;}}
+/*@media screen and (max-width:480px) {header .gravatar {display:none;}}
 
-/* header .gravatar {
+ header .gravatar {
   overflow: hidden;
   width: 100px;
   height: 100px;
@@ -503,15 +503,14 @@ header {
 header #brand {
   float: left;
   width: 80%;
-  margin-top: 22px;
+  margin-top: 16px;
 }
 header #brand h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #565656;
-  line-height: 27px;
-  font-size: 28px;
-  font-size: 2.8rem;
+  line-height: 33px;
+  font-size: 34px;
   margin: 0;
   padding: 0;
  /* text-transform: uppercase;*/
@@ -557,18 +556,18 @@ article {
 }
 article .title {
   color: #404040;
-  line-height: 56.24px;
+  line-height: 50px;
   font-size: 38px;
   font-size: 3.8rem;
   font-weight: 400;
-/*  letter-spacing: -2px; */
+  letter-spacing: -1.5px;
 }
 article .title a {
   text-decoration: none;
   color: #404040;
 }
 article .title a:hover {
-  color: #007998;
+  color: #565656;
 }
 /*article .post-meta {
   margin-bottom: 40px;

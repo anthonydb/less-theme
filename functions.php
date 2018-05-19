@@ -39,7 +39,7 @@ add_action( 'wp_enqueue_scripts', 'less_scripts' );
 function google_fonts() {
 
  $query_args = array(
-   'family' => 'Arvo:400,700|PT+Sans:400,700|Raleway:400,200|Fira+Sans:400,200|Roboto:400,700'
+   'family' => 'Arvo:400,700|PT+Sans:400,700|PT+Serif:400,700|Fira+Sans:400,200|Roboto:400,700'
  );
 
  wp_register_style(

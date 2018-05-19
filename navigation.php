@@ -2,9 +2,9 @@
     <ul>
         <li class="page_item page-item-2265">
             <a href="/practical-sql/">Book</a>
-        </li> 
+        </li>
         <li class="page_item">
-            <a href="/blog/">Blog</a>
+            <a href="/blog/">Posts</a>
         </li>
         <li class="page_item page-item-2">
             <a href="/about/">About</a>
