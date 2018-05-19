@@ -24,15 +24,6 @@
 <header id="masthead" class="site-header" role="banner">
 	<div class="container">
 
-		<div class="gravatar">
-			<?php
-				// Get the desired user's email and photo
-				$user_info = get_userdata(2);
-				$user_email = $user_info->user_email;
-				echo get_avatar( $user_email, 100 );
-			?>
-		</div><!--/ author -->
-
 		<div id="brand">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> &#58;&#58; <span><?php echo get_bloginfo( 'description' ); ?></span></h1>
 		</div><!-- /brand -->

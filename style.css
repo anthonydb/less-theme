@@ -490,7 +490,7 @@ header {
 }
 @media screen and (max-width:480px) {header .gravatar {display:none;}}
 
-header .gravatar {
+/* header .gravatar {
   overflow: hidden;
   width: 100px;
   height: 100px;
@@ -499,7 +499,7 @@ header .gravatar {
   border-radius: 50%;
   margin: 0;
   float: right;
-}
+} */
 header #brand {
   float: left;
   width: 80%;
