@@ -40,9 +40,9 @@ Template Name: Splash
         <article class="post">
             <h1 class="splash-text">Anthony DeBarros</h1>
             <div id="button-block">
-                <a href="/practical-sql/"><button class="button button1">Book</button></a>
-                <a href="/blog/"><button class="button button1">Posts</button></a>
-                <a href="/about/"><button class="button button1">About</button></a>
+                <a class="clear-button" href="/practical-sql/">Book</a>
+                <a class="clear-button" href="/blog/">Posts</a>
+                <a class="clear-button" href="/about/">About</a>
             </div>
         </article>
         </div><!-- #content .site-content -->

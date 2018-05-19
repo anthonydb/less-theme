@@ -130,7 +130,10 @@ html {
   -ms-text-size-adjust: 100%;
   /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 
-}
+  height:100%;
+  min-height:100%;
+ }
+
 ol,
 ul {
   list-style: none;
@@ -778,41 +781,60 @@ html[xmlns] .clearfix {
 /* Splash
 ---------------------------------------------------------------*/
 
+
+.page-id-2628 {
+  background: transparent url('/portfolio/img/ad_site/porto_2018_boat_cpx_b.jpg') 0 0 no-repeat;
+  background-size: cover;
+}
+
+.page-id-2628 header,
+.page-id-2628 footer {
+  display: none
+}
+
+.page-id-2628 .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0;
+  max-width: auto;
+}
+
+.page-id-2628 article {
+  margin-bottom: 0;
+}
+
+.page-id-2628 a {
+  color: white;
+}
+
 .splash-text
 {
     text-align: center;
     font-size: 62px;
     line-height: 70px;
     padding: 0 0 60px 0;
+    color: white;
 }
 
 #button-block {
     text-align: center;
 }
 
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 4px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+.clear-button {
+  display: inline-block;
+  width: 60px;
+  margin: 0 2px 0 2px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
 }
 
-.button1 {
-    background-color: white;
-    color: #565656;
-    border: 2px solid #565656;
-}
-
-.button1:hover {
-    color: black;
-    border: 2px solid #565656;
+.clear-button:hover {
+  opacity: 0.7;
 }
