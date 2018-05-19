@@ -805,10 +805,6 @@ html[xmlns] .clearfix {
   margin-bottom: 0;
 }
 
-.page-id-2628 a {
-  color: white;
-}
-
 .splash-text
 {
     text-align: center;
@@ -835,5 +831,6 @@ html[xmlns] .clearfix {
 }
 
 .clear-button:hover {
+  color: white;
   opacity: 0.7;
 }
