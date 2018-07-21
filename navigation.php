@@ -1,7 +1,7 @@
 <nav role="navigation" class="site-navigation main-navigation">
     <ul>
         <li class="page_item page-item-2265">
-            <a href="/practical-sql/">Book</a>
+            <a href="https://www.practicalsqlbook.com" target="_blank">Book</a>
         </li>
         <li class="page_item">
             <a href="/blog/">Posts</a>

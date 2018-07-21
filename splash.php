@@ -40,7 +40,7 @@ Template Name: Splash
         <article class="post">
             <h1 class="splash-text">Anthony DeBarros</h1>
             <div id="button-block">
-                <a class="clear-button" href="/practical-sql/">Book</a>
+                <a class="clear-button" href="https://www.practicalsqlbook.com" target="_blank">Book</a>
                 <a class="clear-button" href="/blog/">Posts</a>
                 <a class="clear-button" href="/about/">About</a>
             </div>
