@@ -7,7 +7,7 @@
 <footer class="site-footer" role="contentinfo">
     <div class="site-info container">
         <?php do_action( 'break_credits' ); ?>
-        <p>Copyright 2009-2018 Anthony DeBarros<br />
+        <p>Copyright 2009-2019 Anthony DeBarros<br />
         <a href="/privacy-policy" >Privacy Policy</a></p>
     </div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->
