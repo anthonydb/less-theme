@@ -834,3 +834,9 @@ html[xmlns] .clearfix {
   color: white;
   opacity: 0.7;
 }
+
+/* Hide reCaptcha badge per
+https://developers.google.com/recaptcha/docs/faq#id-like-to-hide-the-recaptcha-v3-badge-what-is-allowed
+---------------------------------------------------------------*/
+
+.grecaptcha-badge { visibility: hidden; }
