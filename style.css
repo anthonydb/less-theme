@@ -839,4 +839,5 @@ html[xmlns] .clearfix {
 https://developers.google.com/recaptcha/docs/faq#id-like-to-hide-the-recaptcha-v3-badge-what-is-allowed
 ---------------------------------------------------------------*/
 
-.grecaptcha-badge { visibility: hidden; }
+/*.grecaptcha-badge { visibility: hidden; }*/
+.grecaptcha-badge { display: none; }
